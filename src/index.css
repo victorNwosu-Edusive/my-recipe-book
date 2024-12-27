@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inkfree';
+  src: url(../src/assets/fonts/Inkfree.ttf);
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url(../src/assets/fonts/Instrument_Sans/static/InstrumentSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Instrument Sans Bold';
+  src: url(../src/assets/fonts/Instrument_Sans/static/InstrumentSans-SemiBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
