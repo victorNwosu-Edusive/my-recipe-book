@@ -72,7 +72,7 @@ function Home() {
       <section id='about' className='p-9 md:p-16 lg:p-40'>
         <div className='grid md:grid-cols-2 lg:grid-cols-2 gap-5'>
             <div>
-              <h1 className='text-[#FFA52F] font-globalBold  mt-14'>THE RECIPE BOOK</h1>
+              <h1 className='text-[#FFA52F] font-globalBold  mt-14'>TOP RECIPE BOOK</h1>
               <h1 className='text-3xl md:text-3xl lg:text-4xl font-globalBold align-middle mb-7'>Have you tried the Mobile Version? It looks much better 😊.</h1>
               <h1 className='font-global'>Our recipe app is your ultimate kitchen companion, designed to make cooking simple, enjoyable, and inspiring. 
                 Whether you're a seasoned chef or just starting your culinary journey, 
