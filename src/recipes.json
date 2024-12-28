@@ -1,0 +1,49 @@
+[
+    {
+      "id": "af001",
+      "name": "Jollof Rice",
+      "image": "https://homecooksclassroom.com/wp-content/uploads/2020/07/jollof-rice.jpg",
+      "category": "Main Course",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 cups of rice",
+        "4 large tomatoes",
+        "2 red bell peppers",
+        "1 onion",
+        "1/2 cup vegetable oil",
+        "1 teaspoon thyme",
+        "1 teaspoon curry powder",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Blend tomatoes, bell peppers, and onion into a smooth paste.",
+        "Heat oil in a pot and fry the mixture until the oil separates.",
+        "Add thyme, curry powder, and salt, then stir.",
+        "Add washed rice and water. Cook on low heat until the rice is soft.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "af002",
+      "name": "Egusi Soup",
+      "image": "https://weeatatlast.com/wp-content/uploads/2024/01/egusi-soup-with-chicken-recipe.jpg",
+      "category": "Soup",
+      "area": "Nigeria",
+      "ingredients": [
+        "1 cup ground egusi (melon seeds)",
+        "1/2 cup palm oil",
+        "1 bunch spinach or ugu leaves",
+        "1 onion",
+        "1 cup stock",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Heat palm oil in a pot, then fry the ground egusi for a few minutes.",
+        "Add chopped onions and stock, then stir well.",
+        "Cook until thickened, then add washed and chopped leaves.",
+        "Simmer for 5 minutes and adjust seasoning.",
+        "Serve with pounded yam or fufu."
+      ]
+    }
+  ]
+  

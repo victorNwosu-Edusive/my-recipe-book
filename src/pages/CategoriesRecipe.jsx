@@ -1,25 +1,29 @@
 import React, { useEffect, useState } from "react";
-import { fetchCategories } from "../Recipesapi";
+import { useParams } from "react-router-dom";
+import { fetchRecipesByCategory } from "../Recipesapi";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook, faHeart as faHeartSolid } from "@fortawesome/free-solid-svg-icons";
 
-const Categories = () => {
-  const [categories, setCategories] = useState([]);
+const CategoryRecipesPage = () => {
+  const { category } = useParams();
+  const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const getCategories = async () => {
-      const fetchedCategories = await fetchCategories();
-      setCategories(fetchedCategories);
+    const getRecipes = async () => {
+      const fetchedRecipes = await fetchRecipesByCategory(category);
+      setRecipes(fetchedRecipes);
       setLoading(false);
     };
 
-    getCategories();
-  }, []);
+    getRecipes();
+  }, [category]);
 
   return (
     <div className="bg-[#FFF5E8] p-9 pt-40 md:p-40 lg:p-40">
       <h1 className="font-globalBold text-center text-2xl md:text-4xl lg:text-4xl mb-7">
-        - Meal Categories -
+        - Recipes in {category} -
       </h1>
 
       {loading ? (
@@ -44,23 +48,22 @@ const Categories = () => {
         </div>
       ) : (
         <div className="flex flex-wrap items-center justify-center md:justify-normal lg:justify-normal gap-5">
-          {categories.map((category) => (
-            <div key={category.idCategory} className="w-full md:w-56 lg:w-56 bg-white p-3 pb-5 rounded-md">
+          {recipes.map((recipe) => (
+            <div key={recipe.idMeal} className="w-full md:w-56 lg:w-56 bg-white p-3 pb-5 rounded-md">
               <img
-                src={category.strCategoryThumb}
-                alt={category.strCategory}
-                className="w-full h-40 object-cover rounded-md"
+                src={recipe.strMealThumb}
+                alt={recipe.strMeal}
+                className="w-full rounded-md"
               />
-              <h2 className="text-xl font-globalBold mb-4">{category.strCategory}</h2>
-              <p className="font-global text-md mb-5">
-                {category.strCategoryDescription.substring(0, 100)}...
-              </p>
+              <h2 className="text-xl font-globalBold mb-4">{recipe.strMeal}</h2>
               <Link
-                to={`/category/${category.strCategory}`}
-                className="p-3 text-sm rounded-md px-4 bg-[#FFA52F] text-white font-globalBold hover:bg-black duration-300"
-              >
-                View Recipes
-              </Link>
+                  to={`/recipe/${recipe.idMeal}`}
+                    href={`https://www.themealdb.com/meal/${recipe.idMeal}`}
+                    rel="noopener noreferrer"
+                    className="p-3 text-sm rounded-md px-4 bg-[#FFA52F] text-white font-globalBold hover:bg-black duration-300"
+                  >
+                    View Recipe <FontAwesomeIcon icon={faBook} />
+                  </Link>
             </div>
           ))}
         </div>
@@ -69,4 +72,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default CategoryRecipesPage;

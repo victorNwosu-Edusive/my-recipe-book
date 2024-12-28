@@ -30,4 +30,33 @@ export const fetchRecipesByIngredient = async (ingredient) => {
     console.error('Error fetching recipes by ingredient:', error);
     return [];
   }
+
+  
+
+};
+
+export const fetchRecipesByCategory = async (category) => {
+  try {
+    const response = await fetch(
+      `https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`
+    );
+    const data = await response.json();
+    return data.meals; // Returns an array of meals
+  } catch (error) {
+    console.error("Error fetching recipes by category:", error);
+    return [];
+  }
+};
+
+export const fetchCategories = async () => {
+  try {
+    const response = await fetch(
+      "https://www.themealdb.com/api/json/v1/1/categories.php"
+    );
+    const data = await response.json();
+    return data.categories; // Returns the array of categories
+  } catch (error) {
+    console.error("Error fetching categories:", error);
+    return [];
+  }
 };

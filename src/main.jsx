@@ -12,6 +12,7 @@ import Favorites from './pages/Favorites';
 import { UserProvider } from "./UserContext";
 import SearchResultsPage from "./pages/SearchResults";
 import RecipeDetailPage from "./pages/RecipeDetails";
+import CategoryRecipesPage from "./pages/CategoriesRecipe";
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "categories",
         element: <Categories />,
+      },
+      {
+        path: "category/:category",
+        element: <CategoryRecipesPage />,
       },
       {
         path: "favorites",

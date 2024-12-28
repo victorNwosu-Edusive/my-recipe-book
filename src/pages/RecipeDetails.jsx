@@ -19,6 +19,7 @@ const RecipeDetailPage = () => {
       setRecipe(fetchedRecipe); // Set the recipe data in state
       setLiked(favorites.some((fav) => fav.idMeal === idMeal)); // Check if recipe is in favorites
     };
+    
 
     getRecipe(); // Call the fetch function
   }, [idMeal, favorites]); // Re-run when idMeal or favorites change
