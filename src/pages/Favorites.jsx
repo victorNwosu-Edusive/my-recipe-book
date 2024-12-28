@@ -9,7 +9,7 @@ const Favorites = () => {
   if (!user) {
     return (
       <div className="p-9 pt-40 md:p-40 lg:p-40 bg-[#FFF5E8] h-auto">
-        <p className="font-global text-2xl md:text-4xl lg:text-4xl mb-5">
+        <p className="font-global font-bold text-2xl md:text-4xl lg:text-4xl mb-5">
           Please login to view your favorites.
         </p>
       </div>

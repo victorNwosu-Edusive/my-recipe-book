@@ -81,20 +81,20 @@ const RecipeDetailPage = () => {
 
         <div className="flex justify-between items-center">
           <button
-            className="bg-black text-white p-1 px-3 rounded-md"
+            className="bg-black text-white p-1 px-3 rounded-md font-global"
             onClick={toggleLike}
             title={liked ? 'Remove from favorites' : 'Add to favorites'}
           >
             <FontAwesomeIcon
               icon={liked ? faHeartSolid : faHeartRegular}
-              className="h-5"
+              className="h-5 mr-3"
             />
-            {liked ? 'Remove from Favorites' : 'Add to Favorites'}
+            {liked ? ' Remove from Favorites' : ' Add to Favorites'}
           </button>
         </div>
 
         <h2 className="font-globalBold text-xl mt-7 mb-3">Ingredients</h2>
-        <ul className="list-disc ml-5">
+        <ul className="list-disc ml-5 font-global">
           {Object.keys(recipe).filter((key) => key.includes('strIngredient') && recipe[key]).map((key, index) => (
             <li key={index} className="mb-2">
               {recipe[key]} {recipe[`strMeasure${key.slice(13)}`] && ` - ${recipe[`strMeasure${key.slice(13)}`]}`}
@@ -103,7 +103,7 @@ const RecipeDetailPage = () => {
         </ul>
 
         <h2 className="font-globalBold text-xl mt-7 mb-3">Instructions</h2>
-        <p>{recipe.strInstructions}</p>
+        <p className='font-global text-md'>{recipe.strInstructions}</p>
       </div>
     </div>
   );

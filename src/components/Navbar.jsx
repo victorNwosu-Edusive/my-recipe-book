@@ -119,7 +119,7 @@ function Navbar() {
               </button>
               <button
                 onClick={() => setShowModal(false)}
-                className="w-full bg-gray-300 font-global text-black py-2 px-4 rounded-md hover:bg-gray-400 transition duration-300"
+                className="w-full bg-gray-200 font-global text-black py-2 px-4 rounded-md hover:bg-gray-400 transition duration-300"
               >
                 Cancel
               </button>

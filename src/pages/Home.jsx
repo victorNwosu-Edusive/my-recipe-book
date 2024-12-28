@@ -37,7 +37,11 @@ function Home() {
         <h1 className='md:hidden lg:hidden text-4xl md:text-5xl lg:text-5xl font-globalBold md:text-center lg:text-center mb-7'>Your No. 1 <br/><span className='font-primary text-[#046325]'>Food Recipe</span>
         <br/> app for culinary
         <br/> Inspirations.</h1>
-        <p className='text-xl font-globalBold md:text-center lg:text-center mb-10'>Explore thousands of recipes for every craving and occasion.</p>
+
+        <p className='hidden md:block lg:block text-xl font-globalBold md:text-center lg:text-center mb-10'>Explore thousands of recipes <br/> for every craving and occasion.</p>
+        {/******Mobile Display******/}
+        <p className='md:hidden lg:hidden text-md font-globalBold md:text-center lg:text-center mb-10'>Explore thousands of recipes <br/> for every craving and occasion.</p>
+        
         <div className='flex gap-5 bg-white p-3 md:p-5 lg:p-5 rounded-full border-none outline-none text-md font-global'>
         <FontAwesomeIcon icon={faSearch} className='h-5 text-[#FFA52F]' />
         <input type="search" id='search' className='w-full h-full outline-none' value={query}
