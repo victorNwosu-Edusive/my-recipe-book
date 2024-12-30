@@ -45,7 +45,14 @@ function Navbar() {
           </div>
 
           <div className='md:hidden lg:hidden flex flex-wrap gap-6'>
-          <FontAwesomeIcon onClick={() => setShowModal(true)} icon={faCircleUser} className='h-7 cursor-pointer hover:bg-black rounded-full p-1 hover:text-[#FFA52F]' />  
+          {user ? (
+              <div className="flex items-center space-x-2">
+                <button onClick={logout} className="text-black hover:text-[#FFA52F] rounded-xl text-sm p-2 duration-300 hover:bg-black flex gap-2">Logout<div className='cursor-pointer hover:bg-black rounded-full px-1 border-[1px] bg-green-900 border-solid'><p className='text-sm font-global text-white m-auto font-bold'>G</p></div></button>
+              </div>
+            ) : (
+              <FontAwesomeIcon onClick={() => setShowModal(true)} icon={faCircleUser} className='h-7 cursor-pointer hover:bg-black rounded-full p-1 hover:text-[#FFA52F]' />
+            )}
+            
 
           {/*The Menu Icon to Mobile menu*/}
           <div className="md:hidden lg:hidden" onClick={toggleMenu}>
