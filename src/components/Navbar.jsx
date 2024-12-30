@@ -47,10 +47,10 @@ function Navbar() {
           <div className='md:hidden lg:hidden flex flex-wrap gap-6'>
           {user ? (
               <div className="flex items-center space-x-2">
-                <button onClick={logout} className="text-black border-solid border-[1px] border-black hover:text-[#FFA52F] rounded-xl text-sm p-2 duration-300 hover:bg-black flex gap-1 font-bold">Logout<div className='cursor-pointer hover:bg-black rounded-full px-[5px] border-[1px] bg-green-900 border-solid'><p className='text-[12px] font-global text-white m-auto font-bold'>G</p></div></button>
+                <button onClick={logout} className="text-black border-solid border-[1px] border-black hover:text-[#FFA52F] rounded-xl text-sm p-1 px-2 duration-300 hover:bg-black flex gap-1 font-bold">Logout<div className='cursor-pointer hover:bg-black rounded-full px-[5px] border-[1px] bg-green-900 border-solid'><p className='text-[12px] font-global text-white m-auto font-bold'>G</p></div></button>
               </div>
             ) : (
-              <FontAwesomeIcon onClick={() => setShowModal(true)} icon={faCircleUser} className='h-7 cursor-pointer hover:bg-black rounded-full p-1 hover:text-[#FFA52F]' />
+              <FontAwesomeIcon onClick={() => setShowModal(true)} icon={faCircleUser} className='h-7 cursor-pointer hover:bg-black -mt-1 rounded-full p-1 hover:text-[#FFA52F]' />
             )}
             
 
