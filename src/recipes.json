@@ -16,11 +16,11 @@
         "Salt to taste"
       ],
       "instructions": [
-        "Blend tomatoes, bell peppers, and onion into a smooth paste.",
-        "Heat oil in a pot and fry the mixture until the oil separates.",
-        "Add thyme, curry powder, and salt, then stir.",
-        "Add washed rice and water. Cook on low heat until the rice is soft.",
-        "Serve hot."
+        " Blend tomatoes, bell peppers, and onion into a smooth paste.",
+        " Heat oil in a pot and fry the mixture until the oil separates.",
+        " Add thyme, curry powder, and salt, then stir.",
+        " Add washed rice and water. Cook on low heat until the rice is soft.",
+        " Serve hot."
       ]
     },
     {
@@ -39,11 +39,484 @@
       ],
       "instructions": [
         "Heat palm oil in a pot, then fry the ground egusi for a few minutes.",
-        "Add chopped onions and stock, then stir well.",
-        "Cook until thickened, then add washed and chopped leaves.",
-        "Simmer for 5 minutes and adjust seasoning.",
-        "Serve with pounded yam or fufu."
+        " Add chopped onions and stock, then stir well.",
+        " Cook until thickened, then add washed and chopped leaves.",
+        " Simmer for 5 minutes and adjust seasoning.",
+        " Serve with pounded yam or fufu."
+      ]
+    },
+
+    {
+      "id": "af003",
+      "name": "Moi Moi",
+      "image": "https://i.pinimg.com/736x/e0/c4/26/e0c4264fd097fa777f8dd294023df4b8.jpg",
+      "category": "Side Dish",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 cups peeled beans",
+        "1 red bell pepper",
+        "1 onion",
+        "1/4 cup vegetable oil",
+        "2 teaspoons ground crayfish",
+        "1 teaspoon ground pepper",
+        "Salt to taste",
+        "Boiled eggs (optional)"
+      ],
+      "instructions": [
+        "Blend beans, red bell pepper, and onion into a smooth paste.",
+        "Add vegetable oil, crayfish, ground pepper, and salt. Mix thoroughly.",
+        "Pour into greased containers or moi moi leaves.",
+        "Add boiled eggs to the mixture if desired.",
+        "Steam for 45 minutes to 1 hour until firm.",
+        "Serve hot as a side dish or main meal."
+      ]
+    },
+
+    {
+      "id": "af004",
+      "name": "Suya",
+      "image": "https://i.pinimg.com/736x/38/06/3e/38063efd4e3fb036c1d8afb0a036d76c.jpg",
+      "category": "Snack",
+      "area": "Nigeria",
+      "ingredients": [
+        "500g beef (thinly sliced)",
+        "2 tablespoons groundnut (peanut) oil",
+        "2 tablespoons suya spice mix",
+        "1 teaspoon salt",
+        "Sliced onions (for garnish)"
+      ],
+      "instructions": [
+        "Mix suya spice with groundnut oil and salt.",
+        "Coat beef slices with the spice mixture.",
+        "Thread the beef onto skewers.",
+        "Grill or roast over medium heat until fully cooked.",
+        "Garnish with sliced onions and serve."
+      ]
+    },
+
+    {
+      "id": "af005",
+      "name": "Akara",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Beans_Ball-Akara.jpg/330px-Beans_Ball-Akara.jpg",
+      "category": "Snack",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 cups peeled beans",
+        "1 onion",
+        "1 red chili pepper",
+        "Salt to taste",
+        "Vegetable oil for frying"
+      ],
+      "instructions": [
+        "Blend peeled beans, onion, and chili pepper into a smooth paste.",
+        "Add salt and mix thoroughly.",
+        "Heat vegetable oil in a frying pan.",
+        "Scoop small portions of the bean paste into the hot oil.",
+        "Fry until golden brown and crispy.",
+        "Serve hot as a snack or breakfast item."
+      ]
+    },
+
+    {
+      "id": "af006",
+      "name": "Banga Soup",
+      "image": "https://www.fmnfoods.com/wp-content/uploads/2020/07/banga_soup_-600.jpg",
+      "category": "Soup",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 cups palm fruit concentrate",
+        "1 medium catfish or meat of choice",
+        "1/4 cup ground crayfish",
+        "1 teaspoon banga spice",
+        "1 bunch scent leaves (chopped)",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Boil the palm fruit concentrate with water for 5 minutes.",
+        "Add the fish or meat, crayfish, and banga spice.",
+        "Cook until the fish or meat is tender.",
+        "Add chopped scent leaves and adjust seasoning.",
+        "Simmer for another 5 minutes and serve with starch or pounded yam."
+      ]
+    },
+
+    {
+      "id": "af007",
+      "name": "Amala with Ewedu Soup",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Amala_and_Gbegiri_with_Ewedu_soup.jpg/330px-Amala_and_Gbegiri_with_Ewedu_soup.jpg",
+      "category": "Main Course",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 cups yam flour",
+        "1 bunch jute leaves (ewedu)",
+        "1 teaspoon ground crayfish",
+        "1 teaspoon locust beans (iru)",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Boil water and gradually stir in yam flour to form amala. Set aside.",
+        "Blend or pound jute leaves into a smooth paste.",
+        "Cook the leaves with crayfish, locust beans, and salt.",
+        "Simmer for 5 minutes and serve with amala."
+      ]
+    },
+
+    {
+      "id": "af008",
+      "name": "Pepper Soup",
+      "image": "https://kikifoodies.com/wp-content/uploads/2021/12/4699AF92-A76C-4C92-8F26-8ADF13AFC045-2048x1699.jpeg",
+      "category": "Soup",
+      "area": "Nigeria",
+      "ingredients": [
+        "1kg assorted meat or fish",
+        "2 tablespoons pepper soup spice",
+        "1 teaspoon ground pepper",
+        "1 onion (chopped)",
+        "2 seasoning cubes",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Boil meat or fish with onions, seasoning cubes, and salt until tender.",
+        "Add pepper soup spice and ground pepper.",
+        "Simmer for 10 minutes.",
+        "Serve hot as a comforting soup."
+      ]
+    },
+
+    {
+      "id": "af009",
+      "name": "Nigerian Fried Rice",
+      "image": "https://i.pinimg.com/736x/ea/30/80/ea308047cb58f0310c6afa5ecdf450b9.jpg",
+      "category": "Main Course",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 cups parboiled rice",
+        "1/2 cup vegetable oil",
+        "1 cup mixed vegetables (carrots, green beans, peas, sweet corn)",
+        "1/2 cup diced liver or chicken (optional)",
+        "1 onion (chopped)",
+        "1 green bell pepper (diced)",
+        "2 teaspoons curry powder",
+        "1 teaspoon thyme",
+        "1 seasoning cube",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Parboil the rice until it is halfway cooked, then drain and set aside.",
+        "Heat vegetable oil in a large pan or pot and sauté the onions until translucent.",
+        "Add the diced liver or chicken and fry until cooked (if using).",
+        "Stir in the mixed vegetables, green bell pepper, curry powder, thyme, and seasoning cube.",
+        "Add the parboiled rice and stir well to combine. Adjust seasoning and add salt if needed.",
+        "Cover and cook on low heat until the rice is fully cooked and fluffy.",
+        "Serve hot with fried plantains, chicken, or any protein of your choice."
+      ]
+    },
+
+    {
+      "id": "af010",
+      "name": "Jollof Spaghetti",
+      "image": "https://i.pinimg.com/736x/c3/3c/36/c33c3699f4334492ab81f269a6674375.jpg",
+      "category": "Main Course",
+      "area": "Nigeria",
+      "ingredients": [
+        "300g spaghetti",
+        "4 large tomatoes",
+        "2 red bell peppers",
+        "1 onion",
+        "2 cloves garlic (minced)",
+        "1/2 cup vegetable oil",
+        "1 teaspoon thyme",
+        "1 teaspoon curry powder",
+        "1 seasoning cube",
+        "1/2 teaspoon chili powder (optional)",
+        "1/2 cup chicken or beef stock",
+        "Salt to taste",
+        "Optional garnishes: sliced vegetables, cooked shrimp, or diced chicken"
+      ],
+      "instructions": [
+        "Boil the spaghetti in salted water until al dente, then drain and set aside.",
+        "Blend the tomatoes, red bell peppers, and half the onion into a smooth paste.",
+        "Heat vegetable oil in a pot and sauté the minced garlic and chopped onion until fragrant.",
+        "Add the blended tomato mixture and fry until the oil separates.",
+        "Stir in thyme, curry powder, chili powder (if using), seasoning cube, and chicken or beef stock. Simmer for 5 minutes.",
+        "Add the boiled spaghetti to the sauce and mix thoroughly to combine.",
+        "Adjust seasoning with salt if needed. Simmer for an additional 2–3 minutes to allow the spaghetti to absorb the sauce.",
+        "Serve hot, garnished with sliced vegetables, cooked shrimp, or diced chicken if desired."
+      ]
+    },
+
+    {
+      "id": "af011",
+      "name": "Meat Pie",
+      "image": "https://i.pinimg.com/736x/ac/35/01/ac350141b4eb6c14112f64d5edcef95b.jpg",
+      "category": "Snack",
+      "area": "Nigeria",
+      "ingredients": [
+        "500g minced meat",
+        "4 cups all-purpose flour",
+        "1 cup cold butter or margarine",
+        "1/2 cup cold water",
+        "2 medium carrots (diced)",
+        "1 medium potato (diced)",
+        "1 onion (chopped)",
+        "1 teaspoon curry powder",
+        "1/2 teaspoon thyme",
+        "2 seasoning cubes",
+        "Salt to taste",
+        "1 tablespoon vegetable oil",
+        "1 tablespoon flour (for filling)",
+        "1/4 cup water (for filling)",
+        "1 egg (for egg wash)"
+      ],
+      "instructions": [
+        "In a large bowl, mix the flour and a pinch of salt. Add cold butter and rub in with your fingers until the mixture looks like breadcrumbs.",
+        "Gradually add cold water to form a dough. Knead lightly, wrap in plastic, and chill in the refrigerator for 30 minutes.",
+        "Heat oil in a pan and sauté the onions until fragrant. Add the minced meat, curry powder, thyme, seasoning cubes, and salt. Cook until browned.",
+        "Add diced carrots and potatoes to the pan. Stir in 1 tablespoon flour and 1/4 cup water. Simmer until the vegetables are soft and the mixture thickens. Allow to cool.",
+        "Preheat your oven to 180°C (350°F). Roll out the dough on a floured surface to about 1/8 inch thick.",
+        "Cut the dough into circles using a round cutter or the rim of a bowl.",
+        "Place a spoonful of filling in the center of each circle. Fold over to form a half-moon shape and seal the edges with a fork.",
+        "Place the pies on a baking tray lined with parchment paper. Brush with beaten egg for a golden finish.",
+        "Bake for 25–30 minutes or until golden brown. Serve warm."
+      ]
+    },
+
+    {
+      "id": "af012",
+      "name": "Nigerian Tomato Stew",
+      "image": "https://i.pinimg.com/736x/c4/44/dd/c444ddd9b0a2d0ada652daf0e33cf5cd.jpg",
+      "category": "Main Course",
+      "area": "Nigeria",
+      "ingredients": [
+        "8 large fresh tomatoes",
+        "2 red bell peppers (tatashe)",
+        "1 onion (for blending)",
+        "1 onion (sliced for frying)",
+        "1 scotch bonnet (optional, for heat)",
+        "1/2 cup vegetable oil",
+        "2 tablespoons tomato paste",
+        "2 seasoning cubes",
+        "1 teaspoon curry powder",
+        "1 teaspoon thyme",
+        "Salt to taste",
+        "1/2 kg chicken, beef, or fish (pre-cooked)"
+      ],
+      "instructions": [
+        "Blend the tomatoes, bell peppers, scotch bonnet, and one onion into a smooth paste.",
+        "Pour the mixture into a pot and boil on medium heat until the liquid reduces and thickens.",
+        "Heat the vegetable oil in a separate pot. Add the sliced onions and fry until translucent.",
+        "Add the tomato paste and fry for a few minutes until the oil separates from the paste.",
+        "Stir in the boiled tomato mixture and cook for about 10 minutes, stirring occasionally.",
+        "Season with curry powder, thyme, seasoning cubes, and salt. Adjust to taste.",
+        "Add the pre-cooked chicken, beef, or fish into the stew. Simmer for another 10–15 minutes, allowing the flavors to blend.",
+        "Serve hot with white rice, yam, plantains, or any preferred side dish."
+      ]
+    },
+
+    {
+      "id": "af013",
+      "name": "Ogbono Soup",
+      "image": "https://i.pinimg.com/736x/84/6d/cf/846dcf883864e3667c2f75fb8b7bca40.jpg",
+      "category": "Soup",
+      "area": "Nigeria",
+      "ingredients": [
+        "1 cup ground ogbono seeds",
+        "1/2 cup palm oil",
+        "1 medium onion (chopped)",
+        "1 tablespoon ground crayfish",
+        "1 teaspoon ground pepper",
+        "Assorted meats (e.g., beef, goat meat, cow tripe)",
+        "Stockfish or dried fish (optional)",
+        "1 bunch ugu leaves or bitter leaves (washed and chopped)",
+        "2–3 cups meat stock or water",
+        "1 tablespoon ground locust beans (iru or ogiri, optional)",
+        "Salt to taste",
+        "Seasoning cubes to taste"
+      ],
+      "instructions": [
+        "Cook the assorted meats and stockfish (if using) with chopped onions, seasoning cubes, and salt until tender. Reserve the meat stock.",
+        "In a separate pot, heat the palm oil on low heat. Do not let it bleach.",
+        "Add the ground ogbono to the palm oil and stir continuously to avoid lumps. Fry gently for about 3 minutes.",
+        "Gradually add the reserved meat stock or water while stirring to create a smooth consistency.",
+        "Add ground crayfish, ground pepper, and locust beans (if using). Stir well and simmer for about 5 minutes.",
+        "Add the cooked meats and stockfish, then simmer for another 5 minutes to combine the flavors.",
+        "Add the chopped ugu or bitter leaves and stir. Allow the soup to simmer for 2–3 minutes.",
+        "Adjust the seasoning with salt and seasoning cubes as needed.",
+        "Serve hot with pounded yam, eba, amala, or fufu."
+      ]
+    },
+
+    {
+      "id": "af014",
+      "name": "Vegetable Soup (Edikang Ikong)",
+      "image": "https://i.pinimg.com/736x/e4/7a/2b/e47a2b69367194d118ede7217db45514.jpg",
+      "category": "Soup",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 cups ugu leaves (fluted pumpkin leaves, chopped)",
+        "1 cup waterleaf (or substitute with spinach, chopped)",
+        "1 cup palm oil",
+        "1/2 cup ground crayfish",
+        "1 medium onion (chopped)",
+        "1 teaspoon ground pepper",
+        "Assorted meats (e.g., beef, goat meat, cow tripe)",
+        "Stockfish or dried fish (optional)",
+        "1 cup periwinkles (optional)",
+        "1/2 cup snails (optional)",
+        "1 cup meat stock or water",
+        "Salt to taste",
+        "Seasoning cubes to taste"
+      ],
+      "instructions": [
+        "Cook the assorted meats and stockfish (if using) with chopped onions, seasoning cubes, and salt until tender. Reserve the meat stock.",
+        "Wash and prepare the vegetables (ugu and waterleaf). Set them aside.",
+        "In a pot, heat the palm oil on medium heat. Add the chopped onions and ground crayfish. Stir for a minute.",
+        "Add the cooked meats, stockfish, periwinkles, and snails (if using). Stir well to combine.",
+        "Add the ground pepper and reserved meat stock or water. Allow it to simmer for about 5 minutes.",
+        "Gradually add the chopped waterleaf (or spinach). Stir and cook for 3 minutes.",
+        "Add the ugu leaves last. Stir and simmer for another 2–3 minutes. Do not overcook to retain the freshness of the vegetables.",
+        "Adjust seasoning with salt and seasoning cubes as needed.",
+        "Serve hot with pounded yam, eba, amala, or fufu."
+      ]
+    },
+
+    {
+      "id": "af015",
+      "name": "Beans Porridge",
+      "image": "https://i.pinimg.com/736x/38/76/b7/3876b7cece980fc4d042aafa1b14f8de.jpg",
+      "category": "Main Course",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 cups of beans (black-eyed peas or any preferred variety)",
+        "1 medium onion (chopped)",
+        "2 medium tomatoes (chopped)",
+        "2 tablespoons palm oil",
+        "1 teaspoon ground crayfish",
+        "1 teaspoon ground pepper (or to taste)",
+        "1 seasoning cube",
+        "Salt to taste",
+        "Water (enough to cook the beans)",
+        "1/2 cup of diced yam (optional, for added texture)",
+        "Boiled egg or fried plantain (optional, for garnish)"
+      ],
+      "instructions": [
+        "Rinse the beans thoroughly and place them in a pot. Add water, enough to cover the beans, and cook over medium heat for about 45 minutes or until the beans are tender.",
+        "While the beans are cooking, heat palm oil in a separate pan and fry the chopped onions until soft and translucent.",
+        "Add the chopped tomatoes to the oil and fry for about 5 minutes. Add the ground crayfish, ground pepper, seasoning cube, and salt, stirring well.",
+        "If using yam, add the diced yam to the beans when they are about halfway cooked. Allow it to cook with the beans until tender.",
+        "Once the beans are tender, add the prepared tomato mixture to the pot and stir. Allow it to cook for an additional 10-15 minutes to combine the flavors.",
+        "Check the seasoning and adjust as necessary. Add more water if the consistency is too thick.",
+        "Serve hot with boiled eggs or fried plantain for a hearty meal."
+      ]
+    },
+
+    {
+      "id": "af016",
+      "name": "Barbecue Fish",
+      "image": "https://i.pinimg.com/736x/02/12/df/0212df254877547eda23e317183120b9.jpg",
+      "category": "Main Course",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 medium-sized whole fish (tilapia, mackerel, or any preferred fish)",
+        "2 tablespoons vegetable oil",
+        "1 tablespoon ground pepper",
+        "1 tablespoon ground thyme",
+        "1 tablespoon ground curry powder",
+        "2 cloves garlic (minced)",
+        "1 tablespoon ginger (grated)",
+        "1 tablespoon onion powder",
+        "2 tablespoons soy sauce",
+        "2 tablespoons lemon or lime juice",
+        "Salt to taste",
+        "1 tablespoon honey (optional, for a sweet touch)",
+        "1 tablespoon brown sugar (optional)",
+        "Grill sauce (optional, for glazing)"
+      ],
+      "instructions": [
+        "Clean and gut the fish, removing scales and gills. Wash thoroughly and make a few shallow cuts on each side of the fish.",
+        "In a bowl, mix vegetable oil, ground pepper, thyme, curry powder, garlic, ginger, onion powder, soy sauce, lemon juice, salt, honey, and brown sugar. This will be your marinade.",
+        "Rub the marinade generously over the fish, ensuring that it gets into the cuts and inside the fish. Let it marinate for at least 30 minutes (or overnight for more flavor).",
+        "Preheat your grill to medium heat. If you're using a charcoal grill, ensure the coals are evenly spread.",
+        "Place the marinated fish on the grill and cook for about 10-15 minutes on each side or until the fish is cooked through and has a golden brown, slightly crispy exterior.",
+        "Optional: Brush the fish with additional grill sauce or a mix of vegetable oil and honey during the last few minutes of grilling for added flavor and sheen.",
+        "Serve hot with your favorite sides such as fried rice, grilled vegetables, or a salad."
+      ]
+    },
+
+    {
+      "id": "af017",
+      "name": "Plantain and Egg Sauce",
+      "image": "https://i.pinimg.com/736x/0b/fc/66/0bfc668a2d0591f037987ba2c0265f61.jpg",
+      "category": "Main Course",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 ripe plantains",
+        "3 large eggs",
+        "1 tablespoon vegetable oil",
+        "1 small onion (chopped)",
+        "2 cloves garlic (minced)",
+        "1 red bell pepper (chopped)",
+        "1 green bell pepper (chopped)",
+        "2 medium-sized tomatoes (chopped)",
+        "1 teaspoon thyme",
+        "1 teaspoon curry powder",
+        "1/2 teaspoon ground pepper",
+        "Salt to taste",
+        "1 tablespoon ketchup (optional)",
+        "1/2 cup water or stock",
+        "Fresh parsley (for garnish)"
+      ],
+      "instructions": [
+        "Peel the plantains and slice them into rounds or diagonal slices. Heat some oil in a pan and fry the plantain slices until golden brown and crispy on the outside. Remove from the pan and set aside.",
+        "In another pan, heat oil over medium heat. Add the chopped onions and garlic, and sauté for 2-3 minutes until fragrant.",
+        "Add the red and green bell peppers to the pan and cook for another 3-4 minutes until they soften.",
+        "Stir in the chopped tomatoes, thyme, curry powder, ground pepper, and salt. Cook for 5-7 minutes, stirring occasionally, until the tomatoes soften and the sauce thickens.",
+        "Add the water or stock, and bring the sauce to a simmer. Let it cook for another 5 minutes to allow the flavors to meld.",
+        "Crack the eggs into the sauce, stirring gently to incorporate the eggs into the sauce. Cover the pan and let the eggs cook for 4-5 minutes or until they are fully cooked and scrambled.",
+        "Optional: Add ketchup for a slight sweetness and more flavor, stirring it into the sauce.",
+        "Serve the egg sauce over the fried plantains, garnish with fresh parsley, and enjoy!"
+      ]
+    },
+
+    {
+      "id": "af018",
+      "name": "Fried Plantain",
+      "image": "https://i.pinimg.com/736x/38/17/c2/3817c24923dd6bffc9cce378d66ffe37.jpg",
+      "category": "Side Dish",
+      "area": "Nigeria",
+      "ingredients": [
+        "2 ripe plantains",
+        "Vegetable oil for frying",
+        "Salt (to taste)"
+      ],
+      "instructions": [
+        "Peel the plantains by cutting off the ends, making a shallow slit along the skin, and peeling it off.",
+        "Slice the plantains into round or diagonal pieces, about 1/2 inch thick.",
+        "Heat vegetable oil in a frying pan over medium heat.",
+        "Once the oil is hot, gently place the plantain slices into the oil, making sure they are not overcrowded.",
+        "Fry the plantains for 2-3 minutes on each side, or until they are golden brown and crispy.",
+        "Remove the fried plantains from the oil and place them on a paper towel to drain any excess oil.",
+        "Sprinkle with a pinch of salt while still hot, and serve."
       ]
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
   ]
   

@@ -19,7 +19,7 @@ const Categories = () => {
   return (
     <div className="bg-[#FFF5E8] p-9 pt-40 md:p-40 lg:p-40">
       <h1 className="font-globalBold text-center text-2xl md:text-4xl lg:text-4xl mb-7">
-        - Meal Categories -
+        - Categories -
       </h1>
 
       {loading ? (

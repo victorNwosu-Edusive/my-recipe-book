@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { fetchRecipes } from "../Recipesapi";
+import africanRecipes from "../recipes.json"; // Import your local African recipes
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faHeart as faHeartSolid } from "@fortawesome/free-solid-svg-icons";
 import { faHeart as faHeartRegular } from "@fortawesome/free-regular-svg-icons";
 import { useUser } from "../UserContext"; // Assuming you're using a UserContext to manage user state
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
 const SearchResultsPage = () => {
   const { query } = useParams();
@@ -17,14 +18,30 @@ const SearchResultsPage = () => {
   useEffect(() => {
     const getRecipes = async () => {
       setLoading(true);
-      const fetchedRecipes = await fetchRecipes(query);
-      setRecipes(fetchedRecipes);
+  
+      // Filter African recipes based on the search query (local recipes)
+      const filteredAfricanRecipes = africanRecipes.filter((recipe) =>
+        recipe.name.toLowerCase().includes(query.toLowerCase())
+      );
+  
+      // Set local recipes immediately
+      setRecipes(filteredAfricanRecipes);
+  
+      // Fetch MealDB recipes if online
+      if (navigator.onLine) {
+        const fetchedRecipes = await fetchRecipes(query);
+        setRecipes((prevRecipes) => [
+          ...prevRecipes,
+          ...(fetchedRecipes || []), // Add online recipes only if available
+        ]);
+      }
+  
       setLoading(false);
     };
-
+  
     getRecipes();
   }, [query]);
-
+  
   // Toggle the "liked" state for a recipe
   const toggleLike = (recipe) => {
     if (!user) {
@@ -34,13 +51,17 @@ const SearchResultsPage = () => {
 
     setLikedRecipes((prev) => ({
       ...prev,
-      [recipe.idMeal]: !prev[recipe.idMeal],
+      [recipe.idMeal || recipe.id]: !prev[recipe.idMeal || recipe.id],
     }));
 
     setFavorites((prev) => {
-      const isFavorite = prev.find((fav) => fav.idMeal === recipe.idMeal);
+      const isFavorite = prev.find(
+        (fav) => fav.idMeal === recipe.idMeal || fav.id === recipe.id
+      );
       if (isFavorite) {
-        return prev.filter((fav) => fav.idMeal !== recipe.idMeal); // Remove from favorites
+        return prev.filter(
+          (fav) => fav.idMeal !== recipe.idMeal && fav.id !== recipe.id
+        ); // Remove from favorites
       } else {
         return [...prev, recipe]; // Add to favorites
       }
@@ -77,20 +98,27 @@ const SearchResultsPage = () => {
         <div className="flex flex-wrap items-center justify-center md:justify-normal lg:justify-normal gap-5">
           {recipes && recipes.length > 0 ? (
             recipes.map((recipe) => (
-              <div key={recipe.idMeal} className="w-full md:w-56 lg:w-56 bg-white p-3 pb-5 rounded-md">
-                <img src={recipe.strMealThumb} alt={recipe.strMeal} className="" />
-                <h2 className="text-xl font-globalBold mb-4">{recipe.strMeal}</h2>
+              <div
+                key={recipe.idMeal || recipe.id}
+                className="w-full md:w-56 lg:w-56 bg-white p-3 pb-5 rounded-md"
+              >
+                <img
+                  src={recipe.strMealThumb || recipe.image}
+                  alt={recipe.strMeal || recipe.name}
+                  className=""
+                />
+                <h2 className="text-xl font-globalBold mb-4">
+                  {recipe.strMeal || recipe.name}
+                </h2>
                 <p className="font-global text-md mb-5">
                   <span className="px-2 p-1 font-bold text-slate-400 rounded-full text-[13px] bg-slate-200">
-                    {recipe.strArea}
+                    {recipe.strArea || recipe.area}
                   </span>{" "}
-                  - {recipe.strCategory}
+                  - {recipe.strCategory || recipe.category}
                 </p>
                 <div className="flex justify-between">
-                <Link
-                  to={`/recipe/${recipe.idMeal}`}
-                    href={`https://www.themealdb.com/meal/${recipe.idMeal}`}
-                    rel="noopener noreferrer"
+                  <Link
+                    to={`/recipe/${recipe.idMeal || recipe.id}`}
                     className="p-3 text-sm rounded-md px-4 bg-[#FFA52F] text-white font-globalBold hover:bg-black duration-300"
                   >
                     View Recipe <FontAwesomeIcon icon={faBook} />
@@ -101,7 +129,11 @@ const SearchResultsPage = () => {
                     onClick={() => toggleLike(recipe)}
                   >
                     <FontAwesomeIcon
-                      icon={likedRecipes[recipe.idMeal] ? faHeartSolid : faHeartRegular}
+                      icon={
+                        likedRecipes[recipe.idMeal || recipe.id]
+                          ? faHeartSolid
+                          : faHeartRegular
+                      }
                       className="h-5"
                     />
                   </button>
