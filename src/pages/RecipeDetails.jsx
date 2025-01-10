@@ -77,7 +77,7 @@ const toggleLike = () => {
 
   return (
     <div className="bg-[#FFF5E8] p-9 pt-40 md:p-40 lg:p-40">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto bg-white p-10 rounded-xl">
         <h1 className="font-globalBold text-3xl md:text-4xl mb-7">{recipe.strMeal || recipe.name}</h1>
         <img src={recipe.strMealThumb || recipe.image} alt={recipe.strMeal || recipe.name} className="w-full rounded-md mb-7" />
 
