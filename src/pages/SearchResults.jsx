@@ -124,7 +124,7 @@ const SearchResultsPage = () => {
                     View Recipe <FontAwesomeIcon icon={faBook} />
                   </Link>
                   <button
-                    className="bg-black text-white p-1 px-3 rounded-md"
+                    className="text-black p-1 rounded-md"
                     title="favorites"
                     onClick={() => toggleLike(recipe)}
                   >
@@ -134,7 +134,7 @@ const SearchResultsPage = () => {
                           ? faHeartSolid
                           : faHeartRegular
                       }
-                      className="h-5"
+                      className="h-4"
                     />
                   </button>
                 </div>

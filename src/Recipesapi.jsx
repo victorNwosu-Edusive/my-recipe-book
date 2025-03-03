@@ -1,9 +1,7 @@
 import axios from 'axios';
 
-// Base URL for the MealDB API
 const BASE_URL = 'https://www.themealdb.com/api/json/v1/1';
 
-// Function to fetch recipes based on search query
 export const fetchRecipes = async (query) => {
   try {
     const response = await axios.get(`${BASE_URL}/search.php?s=${query}`);
@@ -18,10 +16,9 @@ export const fetchRecipes = async (query) => {
 export const fetchRecipeById = async (idMeal) => {
   const response = await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`);
   const data = await response.json();
-  return data.meals[0]; // Return the recipe details
+  return data.meals[0]; 
 };
 
-// Function to fetch recipes by ingredient
 export const fetchRecipesByIngredient = async (ingredient) => {
   try {
     const response = await axios.get(`${BASE_URL}/filter.php?i=${ingredient}`);
@@ -41,7 +38,7 @@ export const fetchRecipesByCategory = async (category) => {
       `https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`
     );
     const data = await response.json();
-    return data.meals; // Returns an array of meals
+    return data.meals; 
   } catch (error) {
     console.error("Error fetching recipes by category:", error);
     return [];

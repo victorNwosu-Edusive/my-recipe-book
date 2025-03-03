@@ -83,13 +83,13 @@ const toggleLike = () => {
 
         <div className="flex justify-between items-center">
           <button
-            className="bg-black text-white p-1 px-3 rounded-md font-global"
+            className="bg-black text-white text-sm p-1 px-3 rounded-md font-global flex items-center"
             onClick={toggleLike}
             title={isLiked ? 'Remove from favorites' : 'Add to favorites'}
           >
             <FontAwesomeIcon
               icon={isLiked ? faHeartSolid : faHeartRegular}
-              className="h-5 mr-3"
+              className="h-3 mr-3"
             />
             {isLiked ? ' Remove from Favorites' : ' Add to Favorites'}
           </button>
