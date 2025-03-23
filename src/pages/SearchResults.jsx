@@ -110,8 +110,8 @@ const SearchResultsPage = () => {
                 <h2 className="text-xl font-globalBold mb-4">
                   {recipe.strMeal || recipe.name}
                 </h2>
-                <p className="font-global text-md mb-5">
-                  <span className="px-2 p-1 font-bold text-slate-400 rounded-full text-[13px] bg-slate-200">
+                <p className="font-global text-sm mb-5">
+                  <span className="px-2 p-1 font-bold text-slate-400 rounded-full text-[11px] bg-slate-200">
                     {recipe.strArea || recipe.area}
                   </span>{" "}
                   - {recipe.strCategory || recipe.category}
@@ -119,7 +119,7 @@ const SearchResultsPage = () => {
                 <div className="flex justify-between">
                   <Link
                     to={`/recipe/${recipe.idMeal || recipe.id}`}
-                    className="p-3 text-sm rounded-md px-4 bg-[#FFA52F] text-white font-globalBold hover:bg-black duration-300"
+                    className="p-2 text-[13px] rounded-md px-3 bg-[#FFA52F] text-white font-globalBold hover:bg-black duration-300"
                   >
                     View Recipe <FontAwesomeIcon icon={faBook} />
                   </Link>

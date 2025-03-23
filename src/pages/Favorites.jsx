@@ -28,7 +28,7 @@ const Favorites = () => {
               <h2 className="text-xl font-globalBold mb-4">{recipe.strMeal || recipe.name}</h2>
               <Link
                     to={`/recipe/${recipe.idMeal || recipe.id}`}
-                    className="p-3 text-sm rounded-md px-4 bg-[#FFA52F] text-white font-globalBold hover:bg-black duration-300"
+                    className="p-2 text-[13px] rounded-md px-3 bg-[#FFA52F] text-white font-globalBold hover:bg-black duration-300"
                   >
                     View Recipe <FontAwesomeIcon icon={faBook} />
                   </Link>
