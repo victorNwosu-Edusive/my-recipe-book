@@ -105,7 +105,7 @@ const SearchResultsPage = () => {
                 <img
                   src={recipe.strMealThumb || recipe.image}
                   alt={recipe.strMeal || recipe.name}
-                  className=""
+                  className="object-cover h-48 w-full"
                 />
                 <h2 className="text-xl font-globalBold mb-4">
                   {recipe.strMeal || recipe.name}
